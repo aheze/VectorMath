@@ -35,7 +35,7 @@ import Foundation
 
 // MARK: Types
 
-public typealias Scalar = Float
+public typealias Scalar = Double
 
 public struct Vector2: Hashable {
     public var x: Scalar
