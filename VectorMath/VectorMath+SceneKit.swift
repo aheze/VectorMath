@@ -33,7 +33,7 @@
 
 #if canImport(SceneKit)
 
-#if os(iOS) || os(tvOS)
+#if os(iOS) || os(tvOS) || os(visionOS)
 typealias SCNFloat = Float
 #else
 typealias SCNFloat = CGFloat
